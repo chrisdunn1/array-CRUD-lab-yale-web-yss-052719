@@ -28,12 +28,14 @@ end
 
 def remove_element_from_start_of_array(array)
   array = ["I", "am", "really", "learning", "arrays!"]
-  array.shift[0]
+  array.shift(0)
 end
 
 
 
 def retrieve_element_from_index(array, index_number)
+
+  
 
 end
 
