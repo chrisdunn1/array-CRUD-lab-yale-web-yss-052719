@@ -28,7 +28,8 @@ def create_an_empty_array
 
   def remove_element_from_start_of_array(array)
     array = ["I", "am", "really", "learning", "arrays!"]
-    array.delete
+    array.shift
+    puts array
   end
 
   def retrieve_element_from_index(array, index_number)
